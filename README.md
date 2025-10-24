@@ -76,47 +76,6 @@ A sophisticated Flutter implementation of the classic Tic Tac Toe game with mode
 - **Statistics Access**: Quick stats button in app bar
 - **Settings Toggle**: Enable/disable timer easily
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK (3.9.2 or higher)
-- Dart SDK
-- Android Studio / VS Code with Flutter extensions
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/advanced-tic-tac-toe.git
-   cd advanced-tic-tac-toe
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run the app**
-   ```bash
-   flutter run
-   ```
-
-### Building for Production
-
-**Android APK:**
-```bash
-flutter build apk --release
-```
-
-**iOS:**
-```bash
-flutter build ios --release
-```
-
-**Web:**
-```bash
-flutter build web --release
-```
 
 ## 🎮 How to Play
 
@@ -149,34 +108,6 @@ flutter build web --release
 - **Statistics**: View detailed game history via analytics icon
 - **Back Navigation**: Return to setup or mode selection
 
-## 🏗️ Project Structure
-
-```
-lib/
-├── main.dart                    # Main application entry point
-│   ├── TicTacToeApp            # Root app widget
-│   ├── GameModeSelection       # Mode selection screen
-│   ├── PlayerSetupScreen       # Player & game configuration
-│   └── TicTacToeGame           # Main game widget with logic
-
-test/
-└── widget_test.dart            # Unit and widget tests
-
-assets/
-└── (future sound effects)      # Reserved for audio files
-```
-
-## 🧪 Testing
-
-Run the test suite:
-```bash
-flutter test
-```
-
-Run with coverage:
-```bash
-flutter test --coverage
-```
 
 ## 🎨 Customization
 
@@ -237,65 +168,6 @@ color: const Color(0xFF3A5037) // Dark olive (secondary)
 - **AI Logic**: Minimax-inspired algorithm with strategic positioning
 - **Timer**: Dart Timer with periodic updates
 
-### Key Components
-
-**Board Management**:
-- Dynamic board generation based on size
-- Efficient win detection algorithm
-- Diagonal checking for any board size
-
-**AI Strategy**:
-- Winning move detection
-- Blocking opponent wins
-- Center and corner preference
-- Random fallback for unpredictability
-
-**Timer System**:
-- Periodic countdown updates
-- Automatic timeout handling
-- Visual warning indicators
-- Per-move reset mechanism
-
-### Performance
-- **Optimized Rendering**: Efficient widget rebuilds
-- **Memory Management**: Proper disposal of controllers and timers
-- **Smooth Animations**: 60fps animations with proper curves
-- **Adaptive Sizing**: Dynamic cell dimensions based on board
-
-### Dependencies
-```yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  cupertino_icons: ^1.0.8
-  audioplayers: ^6.0.0        # Sound effects (foundation)
-  shared_preferences: ^2.2.2  # Persistent storage
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-- Follow Flutter best practices
-- Add tests for new features
-- Update documentation
-- Maintain matcha sage green theme consistency
-- Ensure all tests pass before submitting
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Flutter team for the amazing framework
@@ -307,24 +179,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or run into issues:
 
-1. Check the [Issues](https://github.com/yourusername/advanced-tic-tac-toe/issues) page
+1. Check the [Issues](https://github.com/kanizadev/p002/issues) page
 2. Create a new issue with detailed information
 3. Contact the maintainers
-
-## 🚀 Future Enhancements
-
-- [ ] Sound effects for moves and wins
-- [ ] Multiple color themes
-- [ ] Tournament mode with brackets
-- [ ] Online multiplayer
-- [ ] Leaderboards
-- [ ] More AI difficulty levels
-- [ ] Game replay with analysis
-- [ ] Custom winning conditions
-- [ ] Achievements and badges
-- [ ] Dark mode toggle
-
-## 📈 Changelog
 
 ### Version 2.0.0 (Current)
 - ✨ Added multiple board sizes (3x3, 4x4, 5x5)
@@ -337,16 +194,6 @@ If you have any questions or run into issues:
 - ✨ Timeout win conditions
 - 🐛 Fixed win detection for all board sizes
 - 🎨 Improved color contrast and readability
-
-### Version 1.0.0
-- 🎮 Basic Tic Tac Toe gameplay
-- 🤖 AI opponents (Easy & Hard)
-- 📊 Statistics tracking
-- 🎨 Modern UI design
-- ↩️ Undo functionality
-- ✅ Winning line animation
-
----
 
 **Made with ❤️ and ☕ using Flutter**
 
