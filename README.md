@@ -158,22 +158,6 @@ color: const Color(0xFF3A5037) // Dark olive (secondary)
 |------------|-------------------|-------------|
 | ![Stats](screenshots/statistics.png) | ![Win](screenshots/winning.png) | ![AI](screenshots/ai-game.png) |
 
-## 🔧 Technical Details
-
-### Architecture
-- **State Management**: StatefulWidget with setState
-- **Persistence**: SharedPreferences for statistics
-- **Animation**: AnimationController with Tween animations
-- **Navigation**: MaterialPageRoute for screen transitions
-- **AI Logic**: Minimax-inspired algorithm with strategic positioning
-- **Timer**: Dart Timer with periodic updates
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Material Design for the design principles
-- Contributors and testers
-- Matcha enthusiasts for color inspiration
 
 ## 📞 Support
 
@@ -183,7 +167,7 @@ If you have any questions or run into issues:
 2. Create a new issue with detailed information
 3. Contact the maintainers
 
-### Version 2.0.0 (Current)
+### Version 1.0.0 
 - ✨ Added multiple board sizes (3x3, 4x4, 5x5)
 - ✨ Implemented game timer system
 - ✨ Added player name customization
