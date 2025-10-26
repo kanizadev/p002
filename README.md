@@ -167,17 +167,7 @@ If you have any questions or run into issues:
 2. Create a new issue with detailed information
 3. Contact the maintainers
 
-### Version 1.0.0 
-- ✨ Added multiple board sizes (3x3, 4x4, 5x5)
-- ✨ Implemented game timer system
-- ✨ Added player name customization
-- ✨ Created player setup screen
-- ✨ Persistent statistics with SharedPreferences
-- ✨ Enhanced UI with matcha sage green theme
-- ✨ Dynamic cell sizing
-- ✨ Timeout win conditions
-- 🐛 Fixed win detection for all board sizes
-- 🎨 Improved color contrast and readability
+
 
 **Made with ❤️ and ☕ using Flutter**
 
