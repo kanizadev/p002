@@ -108,6 +108,10 @@ A sophisticated Flutter implementation of the classic Tic Tac Toe game with mode
 - **Statistics**: View detailed game history via analytics icon
 - **Back Navigation**: Return to setup or mode selection
 
+## 📱 Screenshots
+
+<img src="https://raw.githubusercontent.com/kanizadev/p002/refs/heads/main/image.png" hight=347 width=208.6 /> <img src="https://raw.githubusercontent.com/kanizadev/p002/refs/heads/main/image1.png" hight=347 width=208.6 /> <img src="https://raw.githubusercontent.com/kanizadev/p002/refs/heads/main/image2.png" hight=347 width=208.6 />
+
 
 ## 🎨 Customization
 
@@ -144,20 +148,6 @@ color: const Color(0xFF3A5037) // Dark olive (secondary)
 - **Online Multiplayer**: Add networking layer
 - **Achievements**: Expand existing achievement system
 
-## 📱 Screenshots
-
-| Mode Selection | Player Setup | Game Board (3x3) |
-|----------------|--------------|------------------|
-| ![Mode](screenshots/mode-selection.png) | ![Setup](screenshots/player-setup.png) | ![Game](screenshots/game-3x3.png) |
-
-| Game Board (4x4) | Game Board (5x5) | Timer Warning |
-|------------------|------------------|---------------|
-| ![4x4](screenshots/game-4x4.png) | ![5x5](screenshots/game-5x5.png) | ![Timer](screenshots/timer-warning.png) |
-
-| Statistics | Winning Animation | AI Gameplay |
-|------------|-------------------|-------------|
-| ![Stats](screenshots/statistics.png) | ![Win](screenshots/winning.png) | ![AI](screenshots/ai-game.png) |
-
 
 ## 📞 Support
 
@@ -165,8 +155,6 @@ If you have any questions or run into issues:
 
 1. Check the [Issues](https://github.com/kanizadev/p002/issues) page
 2. Create a new issue with detailed information
-3. Contact the maintainers
-
 
 
 **Made with ❤️ and ☕ using Flutter**
